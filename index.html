@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="scripts.js" defer></script>
+    <title>Search Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="image_search.html">Image Search</a>
+        <a href="adv_search.html">Advanced Search</a>
+    </div>
+
+    <div class="container">
+        <div>
+            <img class="logo" id="logo" src="images/google-white-logo-1.png" alt="Google Logo">
+        </div>
+        <form action="https://www.google.com/search" method="get" autocomplete="off">
+            <div class="search-bar">
+                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input class="text-input" type="text" name="q" placeholder="">
+            </div>
+            
+            <div class="home-buttons">
+                <input class="search-submit" type="submit" value="Google Search" autocomplete="off">
+                <input class="search-submit" name="btnI" role="button" type="submit" value="I'm Feeling Lucky">
+            </div>
+
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="#">Project GitHub</a>
+            <a id="dark-mode" href="#">Toggle Dark Mode</a>
+            <a href="https://www.google.com">Real Google</a>
+        </div>
+    </div>
+</body>
+
+
+</html>

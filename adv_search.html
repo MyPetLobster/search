@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="scripts.js" defer></script>
+    <title>Advanced Page</title>
+</head>
+<body class="adv-body">
+    <div class="navbar" id="adv-navbar">
+        <a href="index.html">
+            <img class="logo" id="small-logo" src="images/google-logo-9834.png" alt="Google Logo">
+        </a>
+        
+        <div class="adv-links">
+            <a href="index.html">Home</a>
+            <a href="image_search.html">Image Search</a>
+        </div>
+    </div>
+
+    <h1 class="adv-search-text">Advanced Search</h1>
+
+    <div class="a-container">
+        <h4>Find pages with...</h4>
+        <div class="a-search-bar">
+            <form action="https://www.google.com/search" method="get" autocomplete="off">
+                <div class="adv-row">
+                    <label for="as_q">all these words:</label>
+                    <input type="text" name="as_q" placeholder="" autocomplete="off">
+                </div>
+                <div class="adv-row">
+                    <label for="as_epq">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" placeholder="" autocomplete="off">
+                </div>
+                <div class="adv-row">
+                    <label for="as_oq">any of these words:</label>
+                    <input type="text" name="as_oq" placeholder="" autocomplete="off">
+                </div>
+                <div class="adv-row">
+                    <label for="as_eq">none of these words:</label>
+                    <input type="text" name="as_eq" placeholder="" autocomplete="off">
+                </div>
+                <button class="adv-search-submit" type="submit">Advanced Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="adv-footer">
+        <div class="footer-links">
+            <a href="#">Project GitHub</a>
+            <a id="dark-mode" href="#">Toggle Dark Mode</a>
+            <a href="https://www.google.com">Real Google</a>
+        </div>
+    </div>
+</body>
+</html>
